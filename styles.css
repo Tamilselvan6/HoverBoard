@@ -41,6 +41,7 @@ body {
 }
 
 .hoverAllButton {
+    margin-top: 12px;
     background: #fff;
     color: black;
     border: none;
@@ -76,12 +77,12 @@ body {
 
 @media (max-width: 768px) {
     .container {
-        max-width: 280px;
+        max-width: 320px;
     }
 
     .square {
-        height: 12px;
-        width: 12px;
+        height: 14px;
+        width: 14px;
     }
 
     .hoverAllButton {
@@ -90,6 +91,7 @@ body {
     }
 
     .links a {
+        padding: 6px 0;
         font-size: 16px;
     }
 }
