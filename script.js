@@ -25,13 +25,15 @@ for (let i = 0; i < SQUARES; i++) {
   square.classList.add("square");
   square.addEventListener("mouseover", () => setColor(square));
   square.addEventListener("mouseout", () => removeColor(square));
-
-  square.addEventListener("touchstart", () => setColor(square));
-  square.addEventListener("touchend", () => removeColor(square));
-
   container.appendChild(square);
 }
-
+container.addEventListener("touchmove", (e) => {
+    const touch = e.touches[0];
+    const element = document.elementFromPoint(touch.clientX, touch.clientY);
+    if (element && element.classList.contains("square")) {
+        setColor(element);
+    }
+});
 hoverAllButton.addEventListener("click", () => {
     const squares = document.querySelectorAll(".square");
     squares.forEach((square, index) => {
