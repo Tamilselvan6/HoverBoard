@@ -29,7 +29,7 @@ A fun and interactive hover board project that creates a colorful grid of square
 3. Open index.html in your browser.
 
 ## Links
-- **Live Demo**: [Hover Board][(https://your-live-demo-link.com](https://tamilselvan6.github.io/HoverBoard/))
+- **Live Demo**: [Hover Board](https://tamilselvan6.github.io/HoverBoard/)
 - **Portfolio**: [My Portfolio](https://tamilselvan6.github.io/profolio/)
 - **GitHub Profile**: [Tamilselvan6](https://github.com/Tamilselvan6)
 
